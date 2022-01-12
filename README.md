@@ -36,14 +36,14 @@ Checkout the demo project from repo and Open a terminal inside the project .
 
 To run migrations, do the following, open two terminals from the project root folder
 
-# 1st Terminal:
+### 1st Terminal:
 ```bash
     cd _commands
     npm i
     npm run start:dev
 ```
 
-# 2nd Terminal:
+### 2nd Terminal:
 In the other one do the following
 ```bash
     cd _commands
