@@ -20,12 +20,10 @@ We have defined custom annotations as middleware to check authentication of requ
 
 
 ## Installation
-Checkout the demo project and Open a terminal inside the project 
-
-Install demo-project with npm
+Checkout the demo project from repo and Open a terminal inside the project 
 
 ```bash
-  git clone https://chizelsdev@bitbucket.org/chizelsdev/demo-mongo-crud.git
+  git clone https://github.com/jerryfabiantt/demo-mongo-crud.git
   cd demo-mongo-crud
   npm i
 ```
