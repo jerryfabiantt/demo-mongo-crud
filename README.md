@@ -16,8 +16,8 @@ We have defined custom annotations as middleware to check authentication of requ
 
 ## Tech Stack
 
-**Server:** Node, Express, NestJS, MongoDB
-
+**Server:** Node v16.13.1, npm 8.3.0 Express, NestJS, MongoDB latest
+ 
 
 ## Installation
 Checkout the demo project from repo and Open a terminal inside the project . 
@@ -30,6 +30,31 @@ Checkout the demo project from repo and Open a terminal inside the project .
   npm install -g @nestjs/cli
   npm i
 ```
+
+
+## Running Migrations
+
+To run migrations, do the following, open two terminals from the project root folder
+
+In the first one run the following
+```bash
+    cd _commands
+    npm i
+    npm run start:dev
+```
+
+
+In the other one do the following
+```bash
+    cd _commands
+    node dist/main.js -- command:user:createUser
+```
+
+Once this is run the following can be used to login
+## User Details:
+email: admin@mailinator.com
+password: test123
+
 
 ## Running the project
 
@@ -49,25 +74,4 @@ To run the project in Production mode
 
 
 
-## Running Migrations
-
-To run migrations, do the following
-
-```bash
-    cd _commands
-    npm i
-    npm run start:dev
-```
-
-open another terminal
-
-```bash
-    cd _commands
-    node dist/main.js -- command:user:createUser
-```
-
-Once this is run the following can be used to login
-## User Details:
-email: admin@mailinator.com
-password: test123
 
