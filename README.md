@@ -49,7 +49,7 @@ To run the project in Production mode
 
 
 
-## Running Migraions
+## Running Migrations
 
 To run migrations, do the following
 
@@ -65,5 +65,7 @@ open another terminal
     cd _commands
     node dist/main.js -- command:user:createUser
 ```
-
+## User Details:
+email: admin@mailinator.com
+password: test123
 
