@@ -65,6 +65,8 @@ open another terminal
     cd _commands
     node dist/main.js -- command:user:createUser
 ```
+
+Once this is run the following can be used to login
 ## User Details:
 email: admin@mailinator.com
 password: test123
