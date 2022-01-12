@@ -25,7 +25,8 @@ Checkout the demo project and Open a terminal inside the project
 Install demo-project with npm
 
 ```bash
-  cd demo-project
+  git clone https://chizelsdev@bitbucket.org/chizelsdev/demo-mongo-crud.git
+  cd demo-mongo-crud
   npm i
 ```
 
