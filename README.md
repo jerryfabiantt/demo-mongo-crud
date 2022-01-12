@@ -36,14 +36,14 @@ Checkout the demo project from repo and Open a terminal inside the project .
 
 To run migrations, do the following, open two terminals from the project root folder
 
-In the first one run the following
+# 1st Terminal:
 ```bash
     cd _commands
     npm i
     npm run start:dev
 ```
 
-
+# 2nd Terminal:
 In the other one do the following
 ```bash
     cd _commands
@@ -51,9 +51,12 @@ In the other one do the following
 ```
 
 Once this is run the following can be used to login
-## User Details:
+
 email: admin@mailinator.com
+
 password: test123
+
+Now both the terminals can be closed
 
 
 ## Running the project
